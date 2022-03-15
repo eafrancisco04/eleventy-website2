@@ -10,18 +10,23 @@ body {
     background-repeat: no-repeat;
 
 }
-
-h1 {
-    font-family: 'Sansita Swashed', Arial, Helvetica, sans-serif;
-}
-
 /* Header */
 ul {
     list-style-type: none;
     margin: auto;
+    text-decoration: none;
 
     display: flex;
     justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lime;
+    color: black;
 }
 
 header {
