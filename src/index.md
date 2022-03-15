@@ -1,10 +1,4 @@
 ---
-title: Hello World
+title: Elizabeth Ann Francisco
 layout: index.hbs
 ---
-
-<ol>
-    {{#each post}}
-        <li>{{this.name}}</li>
-    {{/each}}
-</ol>
