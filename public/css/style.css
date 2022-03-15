@@ -5,9 +5,10 @@
 }
 
 body {
-    background-image: url("../img/sakura.jpg");
+    background-image: url("../img/bg5.jpg");
     background-size: cover;
-    background-position: center; 
+    background-repeat: no-repeat;
+
 }
 
 h1 {
@@ -27,4 +28,14 @@ header {
     background-color: #111111;
     padding: 1em;
     color: white;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+    padding: 3rem;
+
+    text-align: center;
+    background-color: aliceblue;
+
 }
