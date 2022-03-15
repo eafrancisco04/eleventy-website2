@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("../img/sakura.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+
 h1 {
     font-family: 'Sansita Swashed', Arial, Helvetica, sans-serif;
 }
@@ -18,45 +24,7 @@ ul {
 }
 
 header {
-    background-color: #eeeeee;
+    background-color: #111111;
     padding: 1em;
-}
-
-/*Body*/
-.cover {
-    height: 80vh;
-    background-image: url("../img/bg5.jpg");
-    background-size: cover;
-    background-position: center; 
-
-    display: grid;
-    place-content: center;
-    margin: auto;
-}
-
-.top {
-    padding: 10em;
-}
-
-.about {
-    background-color: white;
-  padding: 1em;
-  font-size: 1.2em;
-  max-width: 50rem;
-  margin: auto;
-  background-color: white;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-section {
-    padding: 2rem;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    color: white;
 }
