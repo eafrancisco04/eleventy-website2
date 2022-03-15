@@ -1,6 +1,6 @@
 ---
 title: Elizabeth Ann Francisco
-page-title: Portfolio
+sub-title: Portfolio
 tags: pages
 layout: index.hbs
 ---

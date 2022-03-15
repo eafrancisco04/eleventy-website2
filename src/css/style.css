@@ -8,6 +8,11 @@ body {
     background-image: url("../img/bg5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 
 }
 /* Header */
@@ -17,7 +22,7 @@ ul {
     text-decoration: none;
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 a {
@@ -26,6 +31,7 @@ a {
 
 a:hover {
     background-color: lime;
+    padding: 1em;
     color: black;
 }
 
@@ -43,4 +49,9 @@ main {
     text-align: center;
     background-color: aliceblue;
 
+}
+
+/*Footer*/
+footer {
+    background-color: gray;
 }
