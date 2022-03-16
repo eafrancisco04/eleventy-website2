@@ -31,11 +31,11 @@ ul {
 
 a {
     text-decoration: none;
+    padding: 1em;
 }
 
 a:hover {
-    background-color: lime;
-    padding: 1em;
+    background-color: rgb(224, 250, 132);
     color: black;
 }
 
