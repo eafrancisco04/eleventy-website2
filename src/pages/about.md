@@ -4,7 +4,7 @@ sub-title: About
 tags: pages
 layout: index.hbs
 ---
-<section class="about">
+<section class="m-auto bg-primary">
     <h3>About Me</h3>
     <p>Born in the Philippines and currently in Toronto, I am a web designer that has over 4 year sof experience in helping clients build their brand identity. This is a placeholder text, but more things will be added here once I think of something else to put.</p>
     <div class="experience">
