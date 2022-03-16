@@ -1,17 +1,17 @@
-<header class="header">
-    <ul>
-        <li> {{title}}</li>
-        <li>
-            <a href="/">
+<nav class="navbar navbar-dark bg-dark">
+    <ul class="d-flex text-light list-unstyled">
+        <li class="text-decoration-none">{{title}}</li>
+        <li class="text-decoration-none">
+            <a href="/" class="text-decoration-none text-light">
                 Home
             </a>
         </li>
         {{#each collections.pages}}
-            <li>
-                <a href="{{ this.url }}">
+            <li class="text-decoration-none">
+                <a href="{{ this.url }}" class="text-decoration-none text-light">
                     {{ this.data.sub-title }}
                 </a>
             </li>
         {{/each}}
     </ul>
-</header>
+</nav>
