@@ -2,7 +2,7 @@
 title: Elizabeth Ann Francisco
 sub-title: About
 tags: pages
-layout: index.hbs
+layout: pages.hbs
 ---
 <section class="about">
     <h3>About Me</h3>
