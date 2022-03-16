@@ -3,7 +3,7 @@ title: Elizabeth Ann Francisco
 sub-title: Elizabeth Ann Francisco
 layout: index.hbs
 ---
-<div class="cover">
+<div class="container m-auto p-3 bg-white text-center h-100">
     <h1>I'm {{title}}. Welcome to my online portfolio.</h1>
     <h4>Content Manager | Web Designer | Graphic Artist</h4>
     <button class="btn btn-info">Learn More</button>
