@@ -61,7 +61,13 @@ main {
     text-align: center;
 }
 
-.background, .education {
+.background {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.education {
     display: flex;
     justify-content: space-evenly;
 }
@@ -79,4 +85,5 @@ main {
 /*Footer*/
 footer {
     background-color: gray;
+    padding: 5px;
 }
