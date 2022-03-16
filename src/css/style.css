@@ -23,6 +23,7 @@ ul {
     list-style-type: none;
     margin: auto;
     text-decoration: none;
+    padding: 0;
 
     display: flex;
     justify-content: space-between;
@@ -67,6 +68,12 @@ main {
 .jobs, .school {
     width: 33%;
     padding: 10px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /*Footer*/

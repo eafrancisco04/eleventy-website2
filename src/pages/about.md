@@ -1,6 +1,6 @@
 ---
 title: Elizabeth Ann Francisco
-sub-title: Background Experience
+sub-title: About
 tags: pages
 layout: index.hbs
 ---
